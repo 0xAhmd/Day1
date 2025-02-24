@@ -1,8 +1,8 @@
 void bubbleSort(List<int> arr) {
-  int n = arr.length - 1; // n is the number of elements in the array
-  for (int i = 0; i < n; i++) {
+  int index = arr.length - 1; // n is the number of elements in the array
+  for (int i = 0; i < index; i++) {
     // the outer loop is used to iterate through the array // this will iterate the down code n times
-    for (int j = 0; j < n - i; j++) {
+    for (int j = 0; j < index - i; j++) {
       // the inner loop is used to compare adjacent elements
       if (arr[j] > arr[j + 1]) {
         // Swap arr[j] and arr[j + 1]
