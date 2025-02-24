@@ -1,5 +1,5 @@
 void bubbleSort(List<int> arr) {
-  int n = arr.length - 1;
+  int n = arr.length - 1; // n is the number of elements in the array
   for (int i = 0; i < n; i++) {
     // the outer loop is used to iterate through the array // this will iterate the down code n times
     for (int j = 0; j < n - i; j++) {
